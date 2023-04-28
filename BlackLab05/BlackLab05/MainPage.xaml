@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BlackLab05.MainPage">
+
+    <StackLayout>
+        <Button
+            Text="Prueba"
+            BackgroundColor="red"
+            TextColor="White"
+        ></Button>
+        <Label
+            Text="Mi primer label"
+            FontSize="Large"
+            BackgroundColor="Blue"
+            ></Label>
+        <Entry 
+            Placeholder="Ingresa Entry"/>
+        <Editor 
+            Placeholder="Ingresa Editor"
+            HeightRequest="100"/>
+        <DatePicker 
+            x:Name="dtpckPrueba"
+            >
+        </DatePicker>
+        <Image 
+            Source="https://maestria-micro.com/wp-content/uploads/2016/05/TECSUP.jpg"
+            >
+        </Image>
+        <Image 
+            Source="foto.jpg"
+            >
+        </Image>
+    </StackLayout>
+
+</ContentPage>
